@@ -1,7 +1,7 @@
 # Employee Attendance Management System
 
 ### 📌 Submitted By:
-**Name:** Dinesh  
+**Name:** K Dinesh  
 **College:** [Srinivasa Ramanujan Institute of Technology]  
 **Contact:** [9346227386]  
 
