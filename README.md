@@ -1,28 +1,22 @@
 # Employee Attendance Management System
 
-A full-stack web application designed to manage employee attendance efficiently with secure authentication, check-in/check-out tracking, attendance history view using a calendar, CSV export, charts summary, and role-based access.
+### 📌 Submitted By:
+**Name:** Dinesh  
+**College:** [Srinivasa Ramanujan Institute of Technology]  
+**Contact:** [9346227386]  
 
 ---
-- Register & Login with JWT security
-- Role-based Login (Employee / Manager)
-- Protected routes & API authorization
 
-### 👨‍💼 Employee Portal
-- Dashboard with real-time clock
-- Attendance Check-In / Check-Out
-- Monthly attendance calendar
-- Attendance summary chart
-- Download report as CSV
+## 📎 Project Links
 
-### 🧾 Manager Portal
-- View all employees attendance
-- Admin overview dashboard
-- Attendance report monitoring
+🔗 **Live Website:** https://dinesh-1234567.github.io/EmployeeAttendanceSystem  
+🔗 **GitHub Repository:** https://github.com/dinesh-1234567/EmployeeAttendanceSystem  
+🔗 **Video Presentation:** [Upload video and paste link here]
 
-### 🎨 UI Enhancements
-- Modern responsive UI using Tailwind + custom styling
-- Toast notification system for feedback
-- Professional layout & theme
+---
+
+## 🚀 Project Overview
+This Employee Attendance Management System is a full-stack application that allows employees to check-in and check-out, track attendance history, and export records. Managers can view reports and monitor employees.
 
 ---
 
@@ -30,13 +24,40 @@ A full-stack web application designed to manage employee attendance efficiently 
 
 | Category | Technologies |
 |---------|-------------|
-| Frontend | React.js, Vite, Axios, Redux Toolkit, Chart.js, React-Calendar, Tailwind |
+| Frontend | React.js, Vite, TailwindCSS, Axios, Chart.js, React-Calendar |
 | Backend | Node.js, Express.js |
-| Database | MongoDB, Mongoose |
-| Authentication | JWT, bcrypt |
-| Tools | Git, GitHub |
+| Database | MongoDB Atlas |
+| Auth | JWT, bcrypt |
+| Tools | Git, GitHub, VS Code |
 
 ---
 
-## 📂 Folder Structure
+## 🔐 Features
 
+### Employee
+- Login / Register
+- Live clock
+- Attendance Check-In / Check-Out
+- Attendance history calendar
+- CSV attendance download
+- Monthly summary chart
+
+### Manager
+- View employee attendance summary
+
+---
+
+## 🎨 UI Enhancements
+- Toast notifications
+- Modern responsive UI
+- Beautiful dashboard layout
+
+---
+
+## 🧪 How to Run
+
+### Backend
+```bash
+cd backend
+npm install
+npm run dev
